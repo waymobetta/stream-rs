@@ -6,6 +6,9 @@
 
 A library for streaming text with a configurable delay.
 
+#### Demo
+![demo](demo.gif)
+
 #### Usage
 ```toml
 # Cargo.toml
