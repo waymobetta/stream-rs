@@ -1,4 +1,4 @@
-### stream-rs
+## stream-rs
 
 <!-- [![Latest Version](https://img.shields.io/crates/v/stream-rs.svg?logo=rust)](https://crates.io/crates/stream-rs) -->
 <!-- [![Docs - Latest Version](https://docs.rs/stream-rs/badge.svg)](https://docs.rs/stream-rs) -->
@@ -6,10 +6,12 @@
 
 A library for streaming text with a configurable delay.
 
-#### Demo
-![demo](demo.gif)
+### Demo
+![](demo.gif)
 
-#### Usage
+*Made using [asciinema](https://github.com/asciinema/asciinema).*
+
+### Usage
 ```toml
 # Cargo.toml
 [dependencies]
@@ -23,14 +25,7 @@ use stream::stream_str;
 stream_str("we built this city on rock and roll", 50);
 ```
 
-#### `stream_str()`
-```rust
-// payload: string literal to print
-// delay: milliseconds
-pub fn stream_str(payload: &str, delay: u64) {}
-```
-
-#### Example
+### Example
 ```rust
 cargo run --example main
 ```
